@@ -103,7 +103,7 @@ const Header = (props: any) => {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="sticky" style={{backgroundColor: 'rgb(67 156 145)'}}>
+      <AppBar position="fixed" style={{backgroundColor: 'rgb(67 156 145)', zIndex: 1201}}>
         <Toolbar>
           {/* <IconButton
             edge="start"
