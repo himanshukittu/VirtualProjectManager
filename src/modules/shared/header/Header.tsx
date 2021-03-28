@@ -10,7 +10,6 @@ const Header = () => {
           <Toolbar>
             <IconButton edge="end">
                 <AccountCircleTwoToneIcon/>
-                testing push
             </IconButton>
           </Toolbar>
         </AppBar>
